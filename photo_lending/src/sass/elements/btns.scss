@@ -1,0 +1,50 @@
+#modal-btn{
+    &--open{
+        padding: 15px 45px;
+        background: #fff;
+        border: 2px solid #000;
+        box-shadow: 3px 3px #000;
+        font-size: 18px;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+
+    &--close{
+        position: absolute;
+        z-index: 2;
+        top:-15px;
+        left: 93%;
+        &:hover{
+            cursor: pointer;
+        }
+    }
+}
+
+.servises-button{
+    display: block;
+    width: 30%;
+    height: 100px;
+    padding:  20px 45px; 
+    font-size: 20px;
+    border: none;
+    &:hover{
+        cursor: pointer;
+    }
+}
+
+.active{
+    background-color: #000;
+    color: #fff;
+}
+
+.form-btn{
+    display: block;
+    width: 40%;
+    padding: 10px 30px;
+    margin: 0 auto;
+    &:hover{
+        cursor: pointer;
+    }
+
+}

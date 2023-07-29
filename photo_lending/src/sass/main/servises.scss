@@ -1,0 +1,77 @@
+.servises {
+    margin-bottom: 50px;
+
+    &-title {
+        font-size: 28px;
+        line-height: 42px;
+        font-weight: 600;
+        margin-bottom: 50px;
+    }
+
+    &-buttons {
+        margin-bottom: 50px;
+        display: flex;
+        justify-content: space-between;
+    }
+}
+
+.workflow {
+    &-title {
+        font-size: 22px;
+        line-height: 32px;
+        font-weight: 600;
+    }
+
+    &-circle {
+        display: flex;
+        width: 100%;
+    }
+
+    &-card{
+        width: 32%;
+        text-align: start;
+
+        &-text{
+            margin-bottom: 30px;
+            max-width: 80%;
+            font-size: 16px;
+            line-height: 22px;
+        }
+        &-title{
+            margin-bottom: 30px;
+            font-size: 18px;
+            line-height: 27px;
+        }
+        &-wrapper{
+            display: flex;
+        }
+    }
+}
+
+.circle {
+    width: 94px;
+    height: 80px;
+    border: 1px solid #000;
+    border-radius: 50%;
+    position: relative;
+    margin: 50px 0  50px;
+
+    &-number {
+        position: absolute;
+        font-size: 22px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.doted {
+    display: block;
+    width: 30%;
+    border-bottom: 3px dotted #000;
+    align-self: center;
+}
+
+.checked{
+    background: 100% no-repeat url('./icons/circle-check-solid.svg');
+}

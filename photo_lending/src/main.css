@@ -1,0 +1,300 @@
+.modal {
+  display: none;
+  width: 100%;
+  height: 100%;
+  position: relative;
+  background-color: rgba(233, 224, 224, 0.6);
+}
+.modal-form {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  height: 320px;
+  background-color: #FFFFFF;
+  border-radius: 2px;
+}
+
+.open {
+  display: block;
+  position: absolute;
+  z-index: 999;
+}
+
+.form {
+  display: block;
+  width: 80%;
+  height: 150px;
+  margin: 0 auto;
+}
+.form-wrapper {
+  position: relative;
+}
+.form-title {
+  width: 90%;
+  margin: 20px auto;
+  text-align: center;
+}
+
+.input {
+  display: block;
+  width: 100%;
+  height: 30px;
+  margin-bottom: 30px;
+}
+
+#phone {
+  margin-bottom: 5px;
+}
+
+small {
+  display: block;
+  width: max-content;
+  margin: 0 auto 20px;
+}
+
+.close-img {
+  display: block;
+  width: 20px;
+  height: 20px;
+}
+
+.container {
+  max-width: 1400px;
+  margin: 0 auto;
+}
+
+#modal-btn--open {
+  padding: 15px 45px;
+  background: #fff;
+  border: 2px solid #000;
+  box-shadow: 3px 3px #000;
+  font-size: 18px;
+}
+#modal-btn--open:hover {
+  cursor: pointer;
+}
+#modal-btn--close {
+  position: absolute;
+  z-index: 2;
+  top: -15px;
+  left: 93%;
+}
+#modal-btn--close:hover {
+  cursor: pointer;
+}
+
+.servises-button {
+  display: block;
+  width: 30%;
+  height: 100px;
+  padding: 20px 45px;
+  font-size: 20px;
+  border: none;
+}
+.servises-button:hover {
+  cursor: pointer;
+}
+
+.active {
+  background-color: #000;
+  color: #fff;
+}
+
+.form-btn {
+  display: block;
+  width: 40%;
+  padding: 10px 30px;
+  margin: 0 auto;
+}
+.form-btn:hover {
+  cursor: pointer;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 0;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 24px;
+}
+.header-nav {
+  width: 30%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-link {
+  text-decoration: none;
+  color: #000;
+}
+
+.location {
+  display: flex;
+  align-items: center;
+}
+.location-dot {
+  display: inline-block;
+  width: 15px;
+  height: auto;
+  margin-right: 5px;
+}
+
+.main-screen {
+  display: flex;
+  padding: 50px 0;
+}
+.main-text-wrapper {
+  width: 40%;
+}
+.main-title {
+  max-width: 80%;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 52px;
+  margin-bottom: 40px;
+}
+.main-subtitle {
+  font-size: 14px;
+  font-weight: 700;
+  line-height: 20px;
+  margin-bottom: 20px;
+  max-width: 80% s;
+}
+.main-text {
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  max-width: 80%;
+  margin-bottom: 20px;
+}
+.main-img-wrapper {
+  width: 60%;
+  position: relative;
+  height: 535px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.main-img-wrapper-top {
+  width: 100%;
+  height: 50px;
+}
+.main-img-wrapper-bottom {
+  width: 100%;
+  height: 50px;
+}
+
+.main-photo-top {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 380px;
+  height: 400px;
+  box-shadow: 50px 50px 50px 10px rgba(197, 197, 197, 0.8);
+}
+.main-photo-bottom {
+  display: block;
+  position: absolute;
+  top: 27%;
+  left: 55%;
+  width: 380px;
+  height: 400px;
+  box-shadow: 50px 50px 150px 10px rgba(252, 230, 170, 0.8);
+}
+
+.line-icon {
+  display: block;
+  width: 100%;
+}
+
+.servises {
+  margin-bottom: 50px;
+}
+.servises-title {
+  font-size: 28px;
+  line-height: 42px;
+  font-weight: 600;
+  margin-bottom: 50px;
+}
+.servises-buttons {
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.workflow-title {
+  font-size: 22px;
+  line-height: 32px;
+  font-weight: 600;
+}
+.workflow-circle {
+  display: flex;
+  width: 100%;
+}
+.workflow-card {
+  width: 32%;
+  text-align: start;
+}
+.workflow-card-text {
+  margin-bottom: 30px;
+  max-width: 80%;
+  font-size: 16px;
+  line-height: 22px;
+}
+.workflow-card-title {
+  margin-bottom: 30px;
+  font-size: 18px;
+  line-height: 27px;
+}
+.workflow-card-wrapper {
+  display: flex;
+}
+
+.circle {
+  width: 94px;
+  height: 80px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  position: relative;
+  margin: 50px 0 50px;
+}
+.circle-number {
+  position: absolute;
+  font-size: 22px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.doted {
+  display: block;
+  width: 30%;
+  border-bottom: 3px dotted #000;
+  align-self: center;
+}
+
+.checked {
+  background: 100% no-repeat url("./icons/circle-check-solid.svg");
+}
+
+.contacts {
+  background-color: #DDECF6;
+  padding: 50px 30px;
+  display: flex;
+  justify-content: space-between;
+}
+.contacts-description {
+  width: 40%;
+}
+.contacts-description-text {
+  max-width: 80%;
+}
+.contacts-info {
+  width: 25%;
+}
+
+/*# sourceMappingURL=main.css.map */

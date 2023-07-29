@@ -1,0 +1,18 @@
+.contacts{
+    background-color: #DDECF6;
+    padding: 50px 30px;
+    display: flex;
+    justify-content: space-between;
+
+    &-description{
+        width: 40%;
+
+        &-text{
+            max-width: 80%;
+        }
+    }
+
+    &-info{
+        width: 25%;
+    }
+}

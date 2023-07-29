@@ -1,0 +1,252 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="./main.css" />
+  <title>Document</title>
+</head>
+
+<body>
+  <div class="modal" id="modal">
+    <div class="modal-form">
+      <div class="form-wrapper">
+        <span id="modal-btn--close"><img src="./icons/xmark-solid.svg" alt="close" class="close-img"></span>
+        <h2 class="form-title">Please type your contact information and i will contact with you</h2>
+        <form class="form">
+          <input type="text" name="name" class="input" placeholder="Enter your name" required>
+          <input type="tel" class="input" id="phone" name="phone"
+          pattern="[0-9]{10}"
+          placeholder="Enter your phone"
+          required>
+          <small>Format: 068xxxxxxx</small>
+          <button type="submit" class="form-btn">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+  <header>
+    <div class="container">
+      <div class="header">
+        <span class="autor">Sofia Hnatenko</span>
+        <nav class="header-nav">
+          <a href="#" class="nav-link">Home</a>
+          <a href="#" class="nav-link">Servises</a>
+          <a href="#" class="nav-link">Contacts</a>
+        </nav>
+        <span class="location"><img src="./icons/location-dot-solid (1).svg" alt="location-dot" class="location-dot" />
+          Ukraine</span>
+      </div>
+    </div>
+  </header>
+  <main>
+    <div class="container">
+      <div class="main-screen">
+        <div class="main-text-wrapper">
+          <h1 class="main-title">
+            The keeper of the brightest and warmest moments
+          </h1>
+          <h2 class="main-subtitle">THE CLEAR VISION</h2>
+          <p class="main-text">
+            They soon began to work together and their earliest
+            collaborative work – posters for the LCP Film Society,
+            Whitechapel Gallery
+          </p>
+          <button id="modal-btn--open">Contact me</button>
+        </div>
+        <div class="main-img-wrapper">
+          <div class="main-img-wrapper-top">
+            <img src="./icons/regular.svg" alt="line" class="line-icon" />
+            <img src="./icons/doted.svg" alt="line" class="line-icon" />
+            <img src="./icons/regular.svg" alt="line" class="line-icon" />
+          </div>
+          <div class="main-img-wrapper-botoom">
+            <img src="./icons/regular.svg" alt="line" class="line-icon" />
+            <img src="./icons/doted.svg" alt="line" class="line-icon" />
+            <img src="./icons/regular.svg" alt="line" class="line-icon" />
+          </div>
+          <img src="./images/main_photo_1.jpg" alt="photo" class="main-photo-top" />
+          <img src="./images/main_photo_2.jpg" alt="photo" class="main-photo-bottom" />
+        </div>
+      </div>
+      <div class="servises" id="servises">
+        <h2 class="servises-title">Fields I work for</h2>
+        <div class="servises-buttons">
+          <button class="servises-button">Studio photography</button>
+          <button class="servises-button">Love story</button>
+          <button class="servises-button">Location photography</button>
+        </div>
+        <template class="serveises-studio" id="serveises-studio">
+          <div class="workflow">
+            <h2 class="workflow-title">Workflow</h2>
+            <div class="workflow-circle">
+              <div class="circle"><span class="circle-number">1</span></div>
+              <span class="doted"></span>
+              <div class="circle"><span class="circle-number">2</span></div>
+              <span class="doted"></span>
+              <div class="circle"><span class="circle-number">3</span></div>
+              <span class="doted"></span>
+              <div class="circle checked"></div>
+            </div>
+            <div class="workflow-card-wrapper">
+              <div class="workflow-card">
+                <h3 class="workflow-card-title">Briefing</h3>
+                <p class="workflow-card-text">
+                  At this point I discover what you need and how you need it to
+                  be done
+                </p>
+              </div>
+              <div class="workflow-card">
+                <h3 class="workflow-card-title">Setting up artificial light</h3>
+                <p class="workflow-card-text">
+                  In studio shooting, which is carried out indoors, mainly
+                  artificial light is used. It can imitate natural, be dramatic,
+                  soft, differ in strength and effects that its sources create -
+                  constant and impulse
+                </p>
+              </div>
+              <div class="workflow-card">
+                <h3 class="workflow-card-title">Photography process</h3>
+                <p class="workflow-card-text">
+                  Professionals are involved in the process, giving all their
+                  abilities not only for the sake of beautiful shots, but also
+                  for the sake of making the process of creating photos easy,
+                  emotionally light and joyful.
+                </p>
+              </div>
+            </div>
+          </div>
+        </template>
+        <template class="serveises-love" id="serveises-love">
+          <div class="workflow">
+            <h2 class="workflow-title">Workflow</h2>
+            <div class="workflow-circle">
+              <div class="circle"><span class="circle-number">1</span></div>
+              <span class="doted"></span>
+              <div class="circle"><span class="circle-number">2</span></div>
+              <span class="doted"></span>
+              <div class="circle"><span class="circle-number">3</span></div>
+              <span class="doted"></span>
+              <div class="circle checked"></div>
+            </div>
+            <div class="workflow-card-wrapper">
+              <div class="workflow-card">
+                <h3 class="workflow-card-title">Love Story</h3>
+                <p class="workflow-card-text">
+                  At this point I discover what you need and how you need it to
+                  be done
+                </p>
+              </div>
+              <div class="workflow-card">
+                <h3 class="workflow-card-title">Setting up artificial light</h3>
+                <p class="workflow-card-text">
+                  In studio shooting, which is carried out indoors, mainly
+                  artificial light is used. It can imitate natural, be dramatic,
+                  soft, differ in strength and effects that its sources create -
+                  constant and impulse
+                </p>
+              </div>
+              <div class="workflow-card">
+                <h3 class="workflow-card-title">Photography process</h3>
+                <p class="workflow-card-text">
+                  Professionals are involved in the process, giving all their
+                  abilities not only for the sake of beautiful shots, but also
+                  for the sake of making the process of creating photos easy,
+                  emotionally light and joyful.
+                </p>
+              </div>
+            </div>
+        </template>
+        <template class="servises-location" id="servises-location">
+          <div class="workflow">
+            <h2 class="workflow-title">Workflow</h2>
+            <div class="workflow-circle">
+              <div class="circle"><span class="circle-number">1</span></div>
+              <span class="doted"></span>
+              <div class="circle"><span class="circle-number">2</span></div>
+              <span class="doted"></span>
+              <div class="circle"><span class="circle-number">3</span></div>
+              <span class="doted"></span>
+              <div class="circle checked"></div>
+            </div>
+            <div class="workflow-card-wrapper">
+              <div class="workflow-card">
+                <h3 class="workflow-card-title">Location photography</h3>
+                <p class="workflow-card-text">
+                  At this point I discover what you need and how you need it to
+                  be done
+                </p>
+              </div>
+              <div class="workflow-card">
+                <h3 class="workflow-card-title">Setting up artificial light</h3>
+                <p class="workflow-card-text">
+                  In studio shooting, which is carried out indoors, mainly
+                  artificial light is used. It can imitate natural, be dramatic,
+                  soft, differ in strength and effects that its sources create -
+                  constant and impulse
+                </p>
+              </div>
+              <div class="workflow-card">
+                <h3 class="workflow-card-title">Photography process</h3>
+                <p class="workflow-card-text">
+                  Professionals are involved in the process, giving all their
+                  abilities not only for the sake of beautiful shots, but also
+                  for the sake of making the process of creating photos easy,
+                  emotionally light and joyful.
+                </p>
+              </div>
+            </div>
+        </template>
+      </div>
+    </div>
+    <div class="container">
+      <div class="contacts">
+        <img src="./images/contacts_photo.jpg" alt="photo" class="contacts-photo" />
+        <div class="contacts-description">
+          <h2>Let`s make it</h2>
+          <p>Hey there!</p>
+          <p class="contacts-description-text">
+            I started my photography career in 2005 as an apprentice
+            photographer in a photography studio. As a student, I attended the
+            Kyiv School of Photography and Graphic Arts as a part-time student.
+            Hope we can find the best solution for your purpose.
+          </p>
+        </div>
+        <div class="contacts-info">
+          <div class="contacts-phone">
+            <p>Phone</p>
+            <p>+1 354 958-23-51</p>
+          </div>
+          <div class="contacts-email">
+            <p>Email</p>
+            <p>hi@johndoe.com</p>
+          </div>
+          <div class="contacts-social">
+            <p>Social</p>
+            <img src="./icons/contacts_instagram.svg" alt="Instagram" class="contacts-icon">
+            <img src="./icons/contacts_youtube.svg" alt="Youtube" class="contacts-icon">
+          </div>
+        </div>
+      </div>
+    </div>
+  </main>
+  <footer>
+    <div class="container">
+      <div class="header">
+        <span class="autor">Sofia Hnatenko</span>
+        <nav class="header-nav">
+          <a href="#" class="nav-link">Home</a>
+          <a href="$" class="nav-link">Servises</a>
+          <a href="#" class="nav-link">Contacts</a>
+        </nav>
+        <span class="location"><img src="./icons/location-dot-solid (1).svg" alt="location-dot" class="location-dot" />
+          Ukraine</span>
+      </div>
+    </div>
+  </footer>
+
+  <script src="./js/index.js"></script>
+</body>
+
+</html>
